@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="library-model"/>
+  <project name="library-resource"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Administrator/.m2/repository/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%3;%1;" path="%2"/>
+   <linked-resource name="%3;" path="%4"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el/>
+ </validation>
+ <aliases>
+  <alias
+   path="/library-model/src/main/java/com/library/app/category/services/impl/CategoryServicesImpl.java" value="%3"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/author/services/impl/AuthorServicesImpl.java" value="%1"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/common/repository/GenericRepository.java" value="%2"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/category/repository/CategoryRepository.java" value="%4"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/author/repository/AuthorRepository.java" value="%0"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

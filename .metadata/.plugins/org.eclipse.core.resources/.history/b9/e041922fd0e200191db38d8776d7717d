@@ -1,0 +1,28 @@
+package com.library.app.common.repository;
+
+import javax.persistence.EntityManager;
+
+import com.library.app.category.model.Category;
+
+public abstract class GenericRepository<T> {
+
+	protected abstract Class<T> getPersistentClass();
+	
+	protected abstract EntityManager getEntityManager();
+	
+	public T add(final T entity) {
+		getEntityManager().persist(entity);
+		return entity;
+	}
+
+	public T findById(final Long id) {
+		if (id == null) {
+			return null;
+		}
+		return getEntityManager().find(getPersistentClass(), id);
+	}
+
+	public void update(final T entity) {
+		getEntityManager().merge(entity);
+	}
+}

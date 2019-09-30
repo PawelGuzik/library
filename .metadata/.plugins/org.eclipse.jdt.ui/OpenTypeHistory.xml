@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=library-model/src\/test\/java&lt;com.library.app.category.commontests.category{CategoryForTestsRepository.java[CategoryForTestsRepository" modifiers="1" timestamp="1568397469265"/>
+<typeInfo handle="=library-resource/src\/test\/java&lt;com.library.app.category.resource{CategoryResourceUTest.java[CategoryResourceUTest" modifiers="1" timestamp="1569074892950"/>
+<typeInfo handle="=library-resource/src\/main\/java&lt;com.library.app.common.json{OperationResultJsonWriter.java[OperationResultJsonWriter" modifiers="17" timestamp="1568831807176"/>
+<typeInfo handle="=library-resource/src\/main\/java&lt;com.library.app.common.model{HttpCode.java[HttpCode" modifiers="16385" timestamp="1568552651621"/>
+<typeInfo handle="=library-int-tests/src\/test\/java&lt;com.library.app.commontests.utils{ResourceClient.java[ResourceClient" modifiers="1" timestamp="1569080698410"/>
+<typeInfo handle="=library-resource/src\/main\/java&lt;com.library.app.category.resource{CategoryJsonConverter.java[CategoryJsonConverter" modifiers="1" timestamp="1568660273989"/>
+<typeInfo handle="=library-model/src\/main\/java&lt;com.library.app.category.repository{CategoryRepository.java[CategoryRepository" modifiers="1" timestamp="1569772111903"/>
+<typeInfo handle="=library-model/src\/main\/java&lt;com.library.app.common.exception{FieldNotValidException.java[FieldNotValidException" modifiers="1" timestamp="1569004782648"/>
+<typeInfo handle="=library-model/src\/main\/java&lt;com.library.app.category.exception{CategoryNotFoundException.java[CategoryNotFoundException" modifiers="1" timestamp="1569004895058"/>
+<typeInfo handle="=library-resource/src\/test\/java&lt;com.library.app.commontests.utils{JsonTestsUtils.java[JsonTestsUtils" modifiers="1" timestamp="1569074817998"/>
+<typeInfo handle="=library-model/src\/main\/java&lt;com.library.app.category.exception{CategoryExistentException.java[CategoryExistentException" modifiers="1" timestamp="1569070512923"/>
+<typeInfo handle="=library-model/src\/main\/java&lt;com.library.app.category.model{Category.java[Category" modifiers="1" timestamp="1569439091823"/>
+<typeInfo handle="=library-resource/src\/main\/java&lt;com.library.app.category.resource{CategoryResource.java[CategoryResource" modifiers="1" timestamp="1569523762189"/>
+</typeInfoHistroy>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AuthorServicesUTest" project="library-model" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="com.library.app.author.services.impl.AuthorServicesUTest" time="0.275">
+    <testcase name="updateAuthorNotFound" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.239"/>
+    <testcase name="addValidAuthor" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.003"/>
+    <testcase name="updateAuthorWithLongName" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.021"/>
+    <testcase name="updateAuthorWithNullName" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.001"/>
+    <testcase name="addAuthorWithShortName" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.001"/>
+    <testcase name="updateValidAuthor" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.006"/>
+    <testcase name="addAuthorWithLongName" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.001"/>
+    <testcase name="addAuthorWithNullName" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.002"/>
+    <testcase name="updateAuthorWithShortName" classname="com.library.app.author.services.impl.AuthorServicesUTest" time="0.001"/>
+  </testsuite>
+</testrun>

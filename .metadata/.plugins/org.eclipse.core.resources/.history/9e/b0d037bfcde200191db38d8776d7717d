@@ -1,0 +1,10 @@
+package com.library.app.common.repository;
+
+import javax.persistence.EntityManager;
+
+public abstract class GenericRepository<T> {
+
+	protected abstract Class<T> getPersistentClass();
+	
+	protected abstract EntityManager getEntityManager();
+}

@@ -1,0 +1,5 @@
+package com.library.app.author.model.filter;
+
+public class AuthorFilter {
+
+}

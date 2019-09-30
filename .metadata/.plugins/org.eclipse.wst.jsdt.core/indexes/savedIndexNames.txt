@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+959511134.index
+417054669.index
+980711351.index
+2907733390.index
+2437299306.index
+2193136570.index

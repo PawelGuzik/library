@@ -1,0 +1,43 @@
+package com.library.app.author.services.impl;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import javax.ejb.Stateless;
+import javax.inject.Inject;
+import javax.validation.ConstraintViolation;
+import javax.validation.Validator;
+
+import com.library.app.author.model.Author;
+import com.library.app.author.repository.AuthorRepository;
+import com.library.app.author.services.AuthorServices;
+import com.library.app.common.exception.FieldNotValidException;
+
+@Stateless
+public class AuthorServicesImpl implements AuthorServices{
+	
+	@Inject
+	AuthorRepository authorRepository;
+	
+	@Inject
+	Validator validator;
+
+	@Override
+	public Author add(Author author) throws FieldNotValidException {
+		validateAuthorFields(author);
+		return authorRepository.add(author);
+	}
+	
+	private void validateAuthorFields(Author author) {
+		final Set<ConstraintViolation<Author>> errors = validator.validate(author);
+		final Iterator<ConstraintViolation<Author>> itErrors = errors.iterator();
+		if(itErrors.hasNext()) {
+			final ConstraintViolation<Author> violation = itErrors.next();
+			throw new FieldNotValidException(violation.getPropertyPath().toString(), violation.getMessage());
+			
+		}
+	}
+	
+	
+
+}

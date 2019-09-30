@@ -1,0 +1,44 @@
+package com.library.app.author.repository;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.library.app.author.model.Author;
+import com.library.app.author.model.filter.AuthorFilter;
+import com.library.app.common.model.PaginatedData;
+
+@Stateless
+public class AuthorRepository {
+	
+	@PersistenceContext
+	EntityManager em;
+	
+	public Author add(Author author) {
+		em.persist(author);
+		return author;
+	}
+
+	public Author findById(Long id) {
+		if(id==null) {
+			return null;
+		}
+		return em.find(Author.class, id);
+	}
+	
+	public void update(Author author) {
+		em.merge(author);
+	}
+	
+	public boolean existsById(long id) {
+		return em.createQuery("SELECT 1 FROM Author e WHERE e.id = :id")
+				.setParameter("id", id)
+				.setMaxResults(1)
+				.getResultList().size()>0;
+	}
+
+	
+	public PaginatedData<Author> findByFilter(final AuthorFilter filter){
+		return null;
+	}
+}

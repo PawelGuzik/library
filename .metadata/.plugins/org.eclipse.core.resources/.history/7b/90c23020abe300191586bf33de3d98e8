@@ -1,0 +1,22 @@
+package com.library.app.common.utils;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import javax.validation.ConstraintViolation;
+
+import com.library.app.category.model.Category;
+import com.library.app.common.exception.FieldNotValidException;
+
+public class ValidationUtils {
+
+	public static void validateEntityFields(Category category) {
+		final Set<ConstraintViolation<Category>> errors = validator.validate(category);
+		final Iterator<ConstraintViolation<Category>> itErrors = errors.iterator();
+		if(itErrors.hasNext()) {
+			final ConstraintViolation<Category> violtion = itErrors.next();
+			throw new FieldNotValidException(violtion.getPropertyPath().toString(), violtion.getMessage());
+			
+		}
+	}
+}

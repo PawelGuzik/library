@@ -1,0 +1,60 @@
+package com.library.app.category.repository;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+import com.library.app.category.model.Category;
+import com.library.app.common.repository.GenericRepository;
+
+@Stateless
+public class CategoryRepository extends GenericRepository<Category> {
+
+	@PersistenceContext
+	EntityManager em;
+
+	@Override
+	protected Class<Category> getPersistentClass() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected EntityManager getEntityManager() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+	@SuppressWarnings("unchecked")
+	public List<Category> findAll(String orderField) {
+
+		return em.createQuery("SELECT e FROM Category e ORDER BY e." + orderField).getResultList();
+	}
+
+	public boolean alreadyExists(Category category) {
+		final StringBuilder jpql = new StringBuilder();
+		jpql.append("SELECT 1 FROM Category e WHERE e.name = :name");
+		if (category.getId() != null) {
+			jpql.append(" And e.id != :id");
+		}
+		final Query query = em.createQuery(jpql.toString());
+		query.setParameter("name", category.getName());
+		if (category.getId() != null) {
+			query.setParameter("id",  category.getId());
+		}
+		return query.setMaxResults(1).getResultList().size() > 0;
+	}
+
+	public boolean existsById(final Long id) {
+		return em.createQuery("SELECT 1 From Category e WHERE e.id = :id")
+				.setParameter("id", id)
+				.setMaxResults(1)
+				.getResultList().size()>0;
+	}
+
+	
+}

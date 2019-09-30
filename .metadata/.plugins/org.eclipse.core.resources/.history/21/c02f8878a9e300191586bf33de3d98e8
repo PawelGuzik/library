@@ -1,0 +1,15 @@
+package com.library.app.author.services;
+
+import javax.ejb.Local;
+
+import com.library.app.author.exception.AuthorNotFoundException;
+import com.library.app.author.model.Author;
+import com.library.app.common.exception.FieldNotValidException;
+
+@Local
+public interface AuthorServices {
+
+	Author add(Author author) throws FieldNotValidException;
+	
+	void update(Author author) throws FieldNotValidException, AuthorNotFoundException;
+}

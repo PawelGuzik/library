@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="library-model"/>
+  <project name="library-resource"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/maven-settings-builder/3.1.1/maven-settings-builder-3.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.0.Final/jboss-servlet-api_3.1_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.2/shrinkwrap-impl-base-1.2.2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-process-controller/8.1.0.Final/wildfly-process-controller-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.5.Final/arquillian-core-api-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/osgi/metadata/jbosgi-metadata/3.0.1.Final/jbosgi-metadata-3.0.1.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.5.Final/arquillian-core-spi-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/json/jboss-json-api_1.0_spec/1.0.0.Final/jboss-json-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/jboss-common-core/2.2.22.GA/jboss-common-core-2.2.22.GA.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-cli/8.1.0.Final/wildfly-cli-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.6/wagon-provider-api-2.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-arquillian-container-managed/8.1.0.Final/wildfly-arquillian-container-managed-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-arquillian-testenricher-msc/8.1.0.Final/wildfly-arquillian-testenricher-msc-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/io/undertow/undertow-core/1.0.15.Final/undertow-core-1.0.15.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-patching/8.1.0.Final/wildfly-patching-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.CR2/arquillian-testenricher-osgi-2.1.0.CR2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/resteasy/resteasy-client/3.0.2.Final/resteasy-client-3.0.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.5.Final/arquillian-core-impl-base-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/wagon/wagon-file/2.6/wagon-file-2.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.2.2/shrinkwrap-api-1.2.2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/fusesource/jansi/jansi/1.9/jansi-1.9.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/eclipse/aether/aether-connector-wagon/0.9.0.M2/aether-connector-wagon-0.9.0.M2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/stdio/jboss-stdio/1.0.2.GA/jboss-stdio-1.0.2.GA.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/2.6/wagon-http-lightweight-2.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/maven-aether-provider/3.1.1/maven-aether-provider-3.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/remotingjmx/remoting-jmx/2.0.0.Final/remoting-jmx-2.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.5.Final/arquillian-test-impl-base-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/2.2.0-beta-1/shrinkwrap-resolver-api-2.2.0-beta-1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-network/8.1.0.Final/wildfly-network-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.5.Final/arquillian-junit-core-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/invocation/jboss-invocation/1.2.1.Final/jboss-invocation-1.2.1.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/easytesting/fest-util/1.1.6/fest-util-1.1.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/resteasy/resteasy-jaxrs/3.0.2.Final/resteasy-jaxrs-3.0.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/2.2.0-beta-1/shrinkwrap-resolver-impl-maven-2.2.0-beta-1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/jws/jsr181-api/1.0-MR1/jsr181-api-1.0-MR1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.2_spec/1.0.4.Final/jboss-jaxb-api_2.2_spec-1.0.4.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/enterprise/concurrent/jboss-concurrency-api_1.0_spec/1.0.0.Final/jboss-concurrency-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-5/shrinkwrap-descriptors-spi-2.0.0-alpha-5.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.19/plexus-interpolation-1.19.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/maven-settings/3.1.1/maven-settings-3.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/marshalling/jboss-marshalling/1.4.6.Final/jboss-marshalling-1.4.6.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/rmi/jboss-rmi-api_1.0_spec/1.0.4.Final/jboss-rmi-api_1.0_spec-1.0.4.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-spi-maven/2.2.0-beta-1/shrinkwrap-resolver-spi-maven-2.2.0-beta-1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.1.5.Final/arquillian-testenricher-ejb-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Final/jboss-el-api_3.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.5.Final/arquillian-test-api-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/xml/soap/jboss-saaj-api_1.3_spec/1.0.3.Final/jboss-saaj-api_1.3_spec-1.0.3.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-deployment-repository/8.1.0.Final/wildfly-deployment-repository-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/threads/jboss-threads/2.1.1.Final/jboss-threads-2.1.1.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-domain-http-interface/8.1.0.Final/wildfly-domain-http-interface-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/com/sun/mail/javax.mail/1.5.1/javax.mail-1.5.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.0.Final/jboss-annotations-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-domain-management/8.1.0.Final/wildfly-domain-management-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/servlet/jstl/jboss-jstl-api_1.2_spec/1.0.4.Final/jboss-jstl-api_1.2_spec-1.0.4.Final.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/c-1_0-rt.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/c-1_0.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/c.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/fmt-1_0-rt.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/fmt-1_0.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/fmt.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/fn.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/permittedtaglibs.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/scriptfree.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/sql-1_0-rt.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/sql-1_0.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/sql.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/x-1_0-rt.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/x-1_0.tld" project="library-int-tests"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-jstl-api_1.2_spec-1.0.4.Final.jar/meta-inf/x.tld" project="library-int-tests"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/xnio/xnio-api/3.2.2.Final/xnio-api-3.2.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.5.Final/arquillian-container-test-api-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.2_spec/1.0.0.Final/jboss-interceptors-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.5.Final/arquillian-container-spi-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-version/8.1.0.Final/wildfly-version-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.5.Final/arquillian-config-impl-base-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.5.Final/arquillian-protocol-servlet-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/maven-model-builder/3.1.1/maven-model-builder-3.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.5.Final/arquillian-container-impl-base-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.1.5.Final/arquillian-testenricher-initialcontext-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/jboss-dmr/1.2.0.Final/jboss-dmr-1.2.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/xnio/xnio-nio/3.2.2.Final/xnio-nio-3.2.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-server/8.1.0.Final/wildfly-server-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/security/wildfly-security-manager/1.0.0.Final/wildfly-security-manager-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/staxmapper/1.1.0.Final/staxmapper-1.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.1.5.Final/arquillian-protocol-jmx-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-5/shrinkwrap-descriptors-api-base-2.0.0-alpha-5.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/aesh/aesh/0.33.11/aesh-0.33.11.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-remoting/8.1.0.Final/wildfly-remoting-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-controller/8.1.0.Final/wildfly-controller-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-platform-mbean/8.1.0.Final/wildfly-platform-mbean-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.2.0-beta-1/shrinkwrap-resolver-api-maven-2.2.0-beta-1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/websocket/jboss-websocket-api_1.0_spec/1.0.0.Final/jboss-websocket-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/jboss-logmanager-1.5.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/msc/jboss-msc/1.2.2.Final/jboss-msc-1.2.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/remoting/jboss-remoting/4.0.3.Final/jboss-remoting-4.0.3.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.5.Final/arquillian-junit-container-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-spi/2.2.0-beta-1/shrinkwrap-resolver-spi-2.2.0-beta-1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/wagon/wagon-http-shared/2.6/wagon-http-shared-2.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/xml/ws/jboss-jaxws-api_2.2_spec/2.0.2.Final/jboss-jaxws-api_2.2_spec-2.0.2.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-core-security/8.1.0.Final/wildfly-core-security-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.5/jboss-jsf-api_2.2_spec-2.2.5.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-arquillian-common/8.1.0.Final/wildfly-arquillian-common-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-io/8.1.0.Final/wildfly-io-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/modules/jboss-modules/1.3.3.Final/jboss-modules-1.3.3.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/management/j2ee/jboss-j2eemgmt-api_1.1_spec/1.0.1.Final/jboss-j2eemgmt-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.5.Final/arquillian-config-api-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/security/auth/message/jboss-jaspi-api_1.1_spec/1.0.0.Final/jboss-jaspi-api_1.1_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-build-config/8.1.0.Final/wildfly-build-config-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/sasl/jboss-sasl/1.0.4.Final/jboss-sasl-1.0.4.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.1.5.Final/arquillian-testenricher-cdi-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/easytesting/fest-assert/1.4/fest-assert-1.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/json/json/20090211/json-20090211.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-controller-client/8.1.0.Final/wildfly-controller-client-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/resteasy/jaxrs-api/3.0.6.Final/jaxrs-api-3.0.6.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-protocol/8.1.0.Final/wildfly-protocol-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.2/shrinkwrap-spi-1.2.2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/resource/jboss-connector-api_1.7_spec/1.0.0.Final/jboss-connector-api_1.7_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.5.Final/arquillian-container-test-spi-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.2_spec/1.0.0.Final/jboss-ejb-api_3.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.5.Final/arquillian-test-spi-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/security/jacc/jboss-jacc-api_1.5_spec/1.0.0.Final/jboss-jacc-api_1.5_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-core-security-api/8.1.0.Final/wildfly-core-security-api-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.5.Final/arquillian-testenricher-resource-1.1.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/jboss-vfs/3.2.5.Final/jboss-vfs-3.2.5.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/servlet/jsp/jboss-jsp-api_2.3_spec/1.0.0.Final/jboss-jsp-api_2.3_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-arquillian-protocol-jmx/8.1.0.Final/wildfly-arquillian-protocol-jmx-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/spec/javax/batch/jboss-batch-api_1.0_spec/1.0.0.Final/jboss-batch-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/wildfly/wildfly-jmx/8.1.0.Final/wildfly-jmx-8.1.0.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/1.4.6.Final/jboss-marshalling-river-1.4.6.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.5.Final/arquillian-container-test-impl-base-1.1.5.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <el>
+   <linked-el length="25" name="%2" offset="24721" path="%3"/>
+   <linked-el length="29" name="%4" offset="5898" path="%5"/>
+   <linked-el length="29" name="%4" offset="3983" path="%5"/>
+   <linked-el length="55" name="%6" offset="7099" path="%3"/>
+   <linked-el length="42" name="%7" offset="24162" path="%3"/>
+   <linked-el length="55" name="%8" offset="7099" path="%3"/>
+   <linked-el length="35" name="%9" offset="22451" path="%3"/>
+   <linked-el length="45" name="%10" offset="9299" path="%3"/>
+   <linked-el length="24" name="%11" offset="24652" path="%3"/>
+   <linked-el length="29" name="%12" offset="5898" path="%5"/>
+   <linked-el length="29" name="%12" offset="3983" path="%5"/>
+   <linked-el length="33" name="%13" offset="23778" path="%3"/>
+   <linked-el length="42" name="%13" offset="24162" path="%3"/>
+   <linked-el length="39" name="%13" offset="4541" path="%5"/>
+   <linked-el length="36" name="%13" offset="24455" path="%3"/>
+   <linked-el length="31" name="%13" offset="22888" path="%3"/>
+   <linked-el length="13" name="%13" offset="503" path="%14"/>
+   <linked-el length="24" name="%13" offset="24652" path="%3"/>
+   <linked-el length="25" name="%13" offset="24721" path="%3"/>
+   <linked-el length="39" name="%13" offset="24338" path="%3"/>
+   <linked-el length="35" name="%13" offset="22451" path="%3"/>
+   <linked-el length="36" name="%13" offset="25108" path="%3"/>
+   <linked-el length="44" name="%13" offset="23641" path="%3"/>
+   <linked-el length="26" name="%13" offset="24792" path="%3"/>
+   <linked-el length="45" name="%13" offset="25048" path="%3"/>
+   <linked-el length="55" name="%13" offset="7099" path="%3"/>
+   <linked-el length="37" name="%13" offset="24571" path="%3"/>
+   <linked-el length="39" name="%15" offset="24338" path="%3"/>
+   <linked-el length="26" name="%16" offset="5415" path="%5"/>
+   <linked-el length="24" name="%17" offset="24652" path="%3"/>
+   <linked-el length="36" name="%18" offset="25108" path="%3"/>
+   <linked-el length="45" name="%18" offset="25048" path="%3"/>
+   <linked-el length="55" name="%19" offset="7099" path="%3"/>
+   <linked-el length="45" name="%20" offset="9299" path="%3"/>
+   <linked-el length="25" name="%21" offset="24721" path="%3"/>
+   <linked-el length="55" name="%22" offset="7099" path="%3"/>
+   <linked-el length="45" name="%23" offset="9299" path="%3"/>
+   <linked-el length="45" name="%24" offset="9299" path="%3"/>
+   <linked-el length="39" name="%25" offset="24338" path="%3"/>
+   <linked-el length="36" name="%26" offset="25108" path="%3"/>
+   <linked-el length="36" name="%27" offset="24455" path="%3"/>
+   <linked-el length="39" name="%28" offset="24338" path="%3"/>
+   <linked-el length="37" name="%29" offset="24571" path="%3"/>
+   <linked-el length="45" name="%30" offset="25048" path="%3"/>
+   <linked-el length="36" name="%31" offset="25108" path="%3"/>
+   <linked-el length="45" name="%31" offset="25048" path="%3"/>
+   <linked-el length="37" name="%32" offset="24571" path="%3"/>
+   <linked-el length="33" name="%33" offset="23778" path="%3"/>
+   <linked-el length="42" name="%33" offset="24162" path="%3"/>
+   <linked-el length="44" name="%33" offset="23641" path="%3"/>
+   <linked-el length="31" name="%33" offset="22888" path="%3"/>
+   <linked-el length="26" name="%34" offset="24792" path="%3"/>
+   <linked-el length="33" name="%35" offset="23778" path="%3"/>
+   <linked-el length="42" name="%35" offset="24162" path="%3"/>
+   <linked-el length="44" name="%35" offset="23641" path="%3"/>
+   <linked-el length="31" name="%35" offset="22888" path="%3"/>
+   <linked-el length="29" name="%36" offset="5898" path="%5"/>
+   <linked-el length="26" name="%36" offset="5415" path="%5"/>
+   <linked-el length="29" name="%36" offset="3983" path="%5"/>
+   <linked-el length="45" name="%37" offset="9299" path="%3"/>
+   <linked-el length="55" name="%38" offset="7099" path="%3"/>
+   <linked-el length="39" name="%39" offset="4541" path="%5"/>
+   <linked-el length="35" name="%39" offset="22451" path="%3"/>
+   <linked-el length="13" name="%39" offset="503" path="%14"/>
+   <linked-el length="45" name="%40" offset="9299" path="%3"/>
+   <linked-el length="39" name="%41" offset="24338" path="%3"/>
+   <linked-el length="36" name="%42" offset="24455" path="%3"/>
+   <linked-el length="36" name="%43" offset="24455" path="%3"/>
+   <linked-el length="37" name="%43" offset="24571" path="%3"/>
+   <linked-el length="44" name="%44" offset="23641" path="%3"/>
+   <linked-el length="45" name="%45" offset="9299" path="%3"/>
+   <linked-el length="26" name="%46" offset="24792" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="jboss.http.port" value="%2"/>
+  <alias path="version.arquillian" value="%4"/>
+  <alias path="jboss.deployment.scanner.rollback" value="%6"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/category/repository/CategoryRepository.java" value="%0"/>
+  <alias path="jboss.bind.address.unsecure" value="%7"/>
+  <alias path="jboss.deployment.scanner.rollback.on" value="%8"/>
+  <alias path="jboss.home.dir" value="%9"/>
+  <alias path="ra.rar" value="%10"/>
+  <alias path="jboss.ajp.port" value="%11"/>
+  <alias path="version.arquillian.wildfly" value="%12"/>
+  <alias path="jboss" value="%13"/>
+  <alias path="jboss.socket" value="%15"/>
+  <alias path="version.arquillian_core" value="%16"/>
+  <alias path="jboss.ajp" value="%17"/>
+  <alias path="jboss.messaging" value="%18"/>
+  <alias path="jboss.deployment" value="%19"/>
+  <alias path="/library-int-tests/src/test/resources/arquillian.xml" value="%14"/>
+  <alias path="ejb" value="%20"/>
+  <alias
+   path="/library-int-tests/src/test/resources/standalone-full.xml" value="%3"/>
+  <alias path="jboss.http" value="%21"/>
+  <alias path="jboss.deployment.scanner" value="%22"/>
+  <alias path="ejb.resource" value="%23"/>
+  <alias path="adapter" value="%24"/>
+  <alias path="offset" value="%25"/>
+  <alias path="jboss.messaging.group.port" value="%26"/>
+  <alias path="jboss.management.http" value="%27"/>
+  <alias path="jboss.socket.binding.port" value="%28"/>
+  <alias path="jboss.management.https.port" value="%29"/>
+  <alias path="jboss.messaging.group.address" value="%30"/>
+  <alias path="jboss.messaging.group" value="%31"/>
+  <alias path="jboss.management.https" value="%32"/>
+  <alias path="jboss.bind" value="%33"/>
+  <alias path="jboss.https" value="%34"/>
+  <alias path="jboss.bind.address" value="%35"/>
+  <alias path="version" value="%36"/>
+  <alias path="ra" value="%37"/>
+  <alias path="jboss.deployment.scanner.rollback.on.failure" value="%38"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/category/services/impl/CategoryServicesImpl.java" value="%1"/>
+  <alias path="jboss.home" value="%39"/>
+  <alias path="name" value="%40"/>
+  <alias path="jboss.socket.binding" value="%41"/>
+  <alias path="/library-int-tests/pom.xml" value="%5"/>
+  <alias path="jboss.management.http.port" value="%42"/>
+  <alias path="jboss.management" value="%43"/>
+  <alias path="jboss.bind.address.management" value="%44"/>
+  <alias path="name.hornetq" value="%45"/>
+  <alias path="jboss.https.port" value="%46"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

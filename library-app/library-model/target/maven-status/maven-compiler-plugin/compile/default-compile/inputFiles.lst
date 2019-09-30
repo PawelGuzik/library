@@ -1,0 +1,7 @@
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\common\exception\FieldNotValidException.java
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\category\repository\CategoryRepository.java
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\category\exception\CategoryExistentException.java
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\category\model\Category.java
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\category\exception\CategoryNotFoundException.java
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\category\services\CategoryServices.java
+C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-model\src\main\java\com\library\app\category\services\impl\CategoryServicesImpl.java

@@ -1,0 +1,55 @@
+package com.library.app.author.resource;
+
+import static com.library.app.commontests.author.AuthorForTestsRepository.*;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.mockito.Mockito.*;
+import static com.library.app.commontests.utils.FileTestNameUtils.*;
+import static com.library.app.commontests.utils.JsonTestsUtils.*;
+
+import javax.ws.rs.core.Response;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.library.app.author.services.AuthorServices;
+import com.library.app.commontests.utils.ResourceDefinitions;
+
+public class AuthorResourceUTest {
+	private AuthorResource authorResource;
+
+	private static final String PATH_RESOURCE =  ResourceDefinitions.AUTHOR.getResourceName();
+	
+	@Mock
+	private AuthorServices authorServices;
+	
+	@Before
+	public void initTest() {
+		MockitoAnnotations.initMocks(this);
+		authorResource = new AuthorResource();
+		
+		authorResource.authorServices = authorServices;
+	}
+	
+	public void addValidAuthor() {
+		when(authorServices.add(robertMartin())).thenReturn(authorWithId(robertMartin(), 1L));
+
+		final Response response = authorResource
+				.add(readJsonFile(getPathFileRequest(PATH_RESOURCE, "robertMartin.json")));
+		assertThat(response.getStatus(), is(equalTo(HttpCode.CREATED.getCode())));
+		assertJsonMatchesExpectedJson(response.getEntity().toString(), "{\"id\": 1}");
+	}
+
+	@Test
+	public void addAuthorWithNullName() throws Exception {
+		when(authorServices.add((Author) anyObject())).thenThrow(new FieldNotValidException("name", "may not be null"));
+
+		final Response response = authorResource
+				.add(readJsonFile(getPathFileRequest(PATH_RESOURCE, "authorWithNullName.json")));
+		assertThat(response.getStatus(), is(equalTo(HttpCode.VALIDATION_ERROR.getCode())));
+		assertJsonResponseWithFile(response, "authorErrorNullName.json");
+	}
+	
+}

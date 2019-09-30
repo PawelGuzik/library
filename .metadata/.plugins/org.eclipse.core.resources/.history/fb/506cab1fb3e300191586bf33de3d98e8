@@ -1,0 +1,13 @@
+package com.library.app.author.resource;
+
+import javax.inject.Inject;
+
+
+import com.library.app.author.services.AuthorServices;
+
+
+public class AuthorResource {
+	@Inject
+	AuthorServices authorServices;
+
+}

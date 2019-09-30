@@ -1,0 +1,24 @@
+package com.library.app.author.resource;
+
+import org.mockito.MockitoAnnotations;
+
+import com.library.app.author.services.AuthorServices;
+import com.library.app.commontests.utils.ResourceDefinitions;
+
+public class AuthorResourceUTest {
+	private AuthorResource authorResource;
+
+	private static final String PATH_RESOURCE =  ResourceDefinitions.AUTHOR.getResourceName();
+	
+	@Mock
+	private AuthorServices authorServices;
+	
+	@Before
+	public void initTest() {
+		MockitoAnnotations.initMocks(this);
+		authorResource = new AuthorResource();
+		
+		authorResource.authorServices = authorServices;
+	}
+	
+}

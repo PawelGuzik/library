@@ -1,0 +1,16 @@
+package com.library.app.author.resource;
+
+import javax.inject.Inject;
+
+import org.junit.Before;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.library.app.author.services.AuthorServices;
+import com.library.app.commontests.utils.ResourceDefinitions;
+
+public class AuthorResource {
+	@Inject
+	AuthorServices authorServices;
+
+}
