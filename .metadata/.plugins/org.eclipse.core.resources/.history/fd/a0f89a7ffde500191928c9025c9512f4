@@ -1,0 +1,21 @@
+package com.library.app.author.resource;
+
+import javax.ws.rs.core.UriInfo;
+
+import com.library.app.author.model.filter.AuthorFilter;
+
+public class AuthorFilterExtractorFromUrl {
+	private UriInfo uriInfo;
+	
+	public AuthorFilterExtractorFromUrl(final UriInfo uriInfo){
+		this.uriInfo = uriInfo;
+	}
+	
+	public AuthorFilter getFilter() {
+		final AuthorFilter authorFilter = new AuthorFilter();
+		return authorFilter;
+	}
+	
+	
+
+}

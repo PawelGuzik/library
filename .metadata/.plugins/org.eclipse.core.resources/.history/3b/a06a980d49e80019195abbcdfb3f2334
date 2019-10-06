@@ -1,0 +1,8 @@
+package com.library.app.user.excpetion;
+
+import javax.ejb.ApplicationException;
+
+@ApplicationException
+public class UserNotFoundException extends RuntimeException{
+
+}

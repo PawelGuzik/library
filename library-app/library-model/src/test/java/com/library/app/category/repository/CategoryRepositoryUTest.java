@@ -37,7 +37,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void addCategoryAndFindIt() throws IllegalStateException {
-		final Long categoryAddedId = dBCommandExecutor.executeCommand(() -> {
+		final Long categoryAddedId = dbCommandExecutor.executeCommand(() -> {
 			return categoryRepository.add(java()).getId();
 		});
 
@@ -62,7 +62,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 
 	@Test
 	public void updateCategory() throws IllegalStateException {
-		final Long categoryAddedId = dBCommandExecutor.executeCommand(() -> {
+		final Long categoryAddedId = dbCommandExecutor.executeCommand(() -> {
 			return categoryRepository.add(java()).getId();
 		});
 		
@@ -70,7 +70,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 		assertThat(categoryAfterAdd.getName(), is(equalTo(java().getName())));
 		
 		categoryAfterAdd.setName(cleanCode().getName());
-		dBCommandExecutor.executeCommand(() -> {
+		dbCommandExecutor.executeCommand(() -> {
 			categoryRepository.update(categoryAfterAdd);
 			return null;
 		});
@@ -81,7 +81,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void findAllCategories() throws IllegalStateException {
-		dBCommandExecutor.executeCommand(() -> {
+		dbCommandExecutor.executeCommand(() -> {
 			allCategories().forEach(categoryRepository::add);
 			return null;
 		});
@@ -96,7 +96,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void alredyExistsForAdd() throws IllegalStateException {
-		dBCommandExecutor.executeCommand(() -> {
+		dbCommandExecutor.executeCommand(() -> {
 			categoryRepository.add(java());
 			return null;
 		});
@@ -108,7 +108,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void alreadyExistsCategoryWithId() throws IllegalStateException {
-		final Category java = dBCommandExecutor.executeCommand(() -> {
+		final Category java = dbCommandExecutor.executeCommand(() -> {
 			categoryRepository.add(cleanCode());
 			return categoryRepository.add(java());
 		});
@@ -124,7 +124,7 @@ public class CategoryRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void existsByd() throws IllegalStateException {
-		final Long categoryAddedId = dBCommandExecutor.executeCommand(() -> {
+		final Long categoryAddedId = dbCommandExecutor.executeCommand(() -> {
 			return categoryRepository.add(java()).getId();
 		});
 		

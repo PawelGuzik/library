@@ -1,2 +1,4 @@
 defaultJpaPlatform_2.0=hibernate2_0
 eclipse.preferences.version=1
+problem.ENTITY_NAME_MISSING=warning
+problem.ENTITY_NO_PK=warning

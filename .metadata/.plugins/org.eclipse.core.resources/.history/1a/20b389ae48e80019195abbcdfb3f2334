@@ -1,0 +1,12 @@
+package com.library.app.user.services;
+
+import javax.ejb.Local;
+
+import com.library.app.common.exception.FieldNotValidException;
+
+@Local
+public class UserServices {
+	
+	User add(User user) throws FieldNotValidException;
+
+}

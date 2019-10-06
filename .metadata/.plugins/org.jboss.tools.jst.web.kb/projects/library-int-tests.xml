@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects>
-  <project name="library-model"/>
   <project name="library-resource"/>
+  <project name="library-model"/>
  </depends-on-projects>
  <used-by-projects/>
  <paths>
@@ -230,134 +230,23 @@
  <validation>
   <core validator-id="jboss.cdi.core">
    <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%3;%1;" path="%2"/>
+   <linked-resource name="%3;" path="%4"/>
   </core>
   <core validator-id="batch-verification"/>
-  <el>
-   <linked-el length="25" name="%2" offset="24721" path="%3"/>
-   <linked-el length="29" name="%4" offset="5898" path="%5"/>
-   <linked-el length="29" name="%4" offset="3983" path="%5"/>
-   <linked-el length="55" name="%6" offset="7099" path="%3"/>
-   <linked-el length="42" name="%7" offset="24162" path="%3"/>
-   <linked-el length="55" name="%8" offset="7099" path="%3"/>
-   <linked-el length="35" name="%9" offset="22451" path="%3"/>
-   <linked-el length="45" name="%10" offset="9299" path="%3"/>
-   <linked-el length="24" name="%11" offset="24652" path="%3"/>
-   <linked-el length="29" name="%12" offset="5898" path="%5"/>
-   <linked-el length="29" name="%12" offset="3983" path="%5"/>
-   <linked-el length="33" name="%13" offset="23778" path="%3"/>
-   <linked-el length="42" name="%13" offset="24162" path="%3"/>
-   <linked-el length="39" name="%13" offset="4541" path="%5"/>
-   <linked-el length="36" name="%13" offset="24455" path="%3"/>
-   <linked-el length="31" name="%13" offset="22888" path="%3"/>
-   <linked-el length="13" name="%13" offset="503" path="%14"/>
-   <linked-el length="24" name="%13" offset="24652" path="%3"/>
-   <linked-el length="25" name="%13" offset="24721" path="%3"/>
-   <linked-el length="39" name="%13" offset="24338" path="%3"/>
-   <linked-el length="35" name="%13" offset="22451" path="%3"/>
-   <linked-el length="36" name="%13" offset="25108" path="%3"/>
-   <linked-el length="44" name="%13" offset="23641" path="%3"/>
-   <linked-el length="26" name="%13" offset="24792" path="%3"/>
-   <linked-el length="45" name="%13" offset="25048" path="%3"/>
-   <linked-el length="55" name="%13" offset="7099" path="%3"/>
-   <linked-el length="37" name="%13" offset="24571" path="%3"/>
-   <linked-el length="39" name="%15" offset="24338" path="%3"/>
-   <linked-el length="26" name="%16" offset="5415" path="%5"/>
-   <linked-el length="24" name="%17" offset="24652" path="%3"/>
-   <linked-el length="36" name="%18" offset="25108" path="%3"/>
-   <linked-el length="45" name="%18" offset="25048" path="%3"/>
-   <linked-el length="55" name="%19" offset="7099" path="%3"/>
-   <linked-el length="45" name="%20" offset="9299" path="%3"/>
-   <linked-el length="25" name="%21" offset="24721" path="%3"/>
-   <linked-el length="55" name="%22" offset="7099" path="%3"/>
-   <linked-el length="45" name="%23" offset="9299" path="%3"/>
-   <linked-el length="45" name="%24" offset="9299" path="%3"/>
-   <linked-el length="39" name="%25" offset="24338" path="%3"/>
-   <linked-el length="36" name="%26" offset="25108" path="%3"/>
-   <linked-el length="36" name="%27" offset="24455" path="%3"/>
-   <linked-el length="39" name="%28" offset="24338" path="%3"/>
-   <linked-el length="37" name="%29" offset="24571" path="%3"/>
-   <linked-el length="45" name="%30" offset="25048" path="%3"/>
-   <linked-el length="36" name="%31" offset="25108" path="%3"/>
-   <linked-el length="45" name="%31" offset="25048" path="%3"/>
-   <linked-el length="37" name="%32" offset="24571" path="%3"/>
-   <linked-el length="33" name="%33" offset="23778" path="%3"/>
-   <linked-el length="42" name="%33" offset="24162" path="%3"/>
-   <linked-el length="44" name="%33" offset="23641" path="%3"/>
-   <linked-el length="31" name="%33" offset="22888" path="%3"/>
-   <linked-el length="26" name="%34" offset="24792" path="%3"/>
-   <linked-el length="33" name="%35" offset="23778" path="%3"/>
-   <linked-el length="42" name="%35" offset="24162" path="%3"/>
-   <linked-el length="44" name="%35" offset="23641" path="%3"/>
-   <linked-el length="31" name="%35" offset="22888" path="%3"/>
-   <linked-el length="29" name="%36" offset="5898" path="%5"/>
-   <linked-el length="26" name="%36" offset="5415" path="%5"/>
-   <linked-el length="29" name="%36" offset="3983" path="%5"/>
-   <linked-el length="45" name="%37" offset="9299" path="%3"/>
-   <linked-el length="55" name="%38" offset="7099" path="%3"/>
-   <linked-el length="39" name="%39" offset="4541" path="%5"/>
-   <linked-el length="35" name="%39" offset="22451" path="%3"/>
-   <linked-el length="13" name="%39" offset="503" path="%14"/>
-   <linked-el length="45" name="%40" offset="9299" path="%3"/>
-   <linked-el length="39" name="%41" offset="24338" path="%3"/>
-   <linked-el length="36" name="%42" offset="24455" path="%3"/>
-   <linked-el length="36" name="%43" offset="24455" path="%3"/>
-   <linked-el length="37" name="%43" offset="24571" path="%3"/>
-   <linked-el length="44" name="%44" offset="23641" path="%3"/>
-   <linked-el length="45" name="%45" offset="9299" path="%3"/>
-   <linked-el length="26" name="%46" offset="24792" path="%3"/>
-  </el>
+  <el/>
  </validation>
  <aliases>
-  <alias path="jboss.http.port" value="%2"/>
-  <alias path="version.arquillian" value="%4"/>
-  <alias path="jboss.deployment.scanner.rollback" value="%6"/>
   <alias
-   path="/library-model/src/main/java/com/library/app/category/repository/CategoryRepository.java" value="%0"/>
-  <alias path="jboss.bind.address.unsecure" value="%7"/>
-  <alias path="jboss.deployment.scanner.rollback.on" value="%8"/>
-  <alias path="jboss.home.dir" value="%9"/>
-  <alias path="ra.rar" value="%10"/>
-  <alias path="jboss.ajp.port" value="%11"/>
-  <alias path="version.arquillian.wildfly" value="%12"/>
-  <alias path="jboss" value="%13"/>
-  <alias path="jboss.socket" value="%15"/>
-  <alias path="version.arquillian_core" value="%16"/>
-  <alias path="jboss.ajp" value="%17"/>
-  <alias path="jboss.messaging" value="%18"/>
-  <alias path="jboss.deployment" value="%19"/>
-  <alias path="/library-int-tests/src/test/resources/arquillian.xml" value="%14"/>
-  <alias path="ejb" value="%20"/>
+   path="/library-model/src/main/java/com/library/app/category/services/impl/CategoryServicesImpl.java" value="%3"/>
   <alias
-   path="/library-int-tests/src/test/resources/standalone-full.xml" value="%3"/>
-  <alias path="jboss.http" value="%21"/>
-  <alias path="jboss.deployment.scanner" value="%22"/>
-  <alias path="ejb.resource" value="%23"/>
-  <alias path="adapter" value="%24"/>
-  <alias path="offset" value="%25"/>
-  <alias path="jboss.messaging.group.port" value="%26"/>
-  <alias path="jboss.management.http" value="%27"/>
-  <alias path="jboss.socket.binding.port" value="%28"/>
-  <alias path="jboss.management.https.port" value="%29"/>
-  <alias path="jboss.messaging.group.address" value="%30"/>
-  <alias path="jboss.messaging.group" value="%31"/>
-  <alias path="jboss.management.https" value="%32"/>
-  <alias path="jboss.bind" value="%33"/>
-  <alias path="jboss.https" value="%34"/>
-  <alias path="jboss.bind.address" value="%35"/>
-  <alias path="version" value="%36"/>
-  <alias path="ra" value="%37"/>
-  <alias path="jboss.deployment.scanner.rollback.on.failure" value="%38"/>
+   path="/library-model/src/main/java/com/library/app/author/services/impl/AuthorServicesImpl.java" value="%1"/>
   <alias
-   path="/library-model/src/main/java/com/library/app/category/services/impl/CategoryServicesImpl.java" value="%1"/>
-  <alias path="jboss.home" value="%39"/>
-  <alias path="name" value="%40"/>
-  <alias path="jboss.socket.binding" value="%41"/>
-  <alias path="/library-int-tests/pom.xml" value="%5"/>
-  <alias path="jboss.management.http.port" value="%42"/>
-  <alias path="jboss.management" value="%43"/>
-  <alias path="jboss.bind.address.management" value="%44"/>
-  <alias path="name.hornetq" value="%45"/>
-  <alias path="jboss.https.port" value="%46"/>
+   path="/library-model/src/main/java/com/library/app/common/repository/GenericRepository.java" value="%2"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/category/repository/CategoryRepository.java" value="%4"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/author/repository/AuthorRepository.java" value="%0"/>
  </aliases>
  <includes/>
  <uris/>

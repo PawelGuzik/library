@@ -1,0 +1,16 @@
+package com.library.app.user.services.impl;
+
+import static com.library.app.commontests.user.UserForTestsRepository.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
+
+import javax.validation.Valid;
+import javax.validation.Validator;
+
+public class UserServicesUTest {
+	private static Validator validator;
+	private UserServices userServices;
+
+}

@@ -1,0 +1,7 @@
+package com.library.app.user.services.impl;
+
+import static com.library.app.commontests.user.UserForTestsRepository.*;
+
+public class UserServicesUTest {
+
+}

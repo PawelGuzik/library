@@ -1,6 +1,10 @@
+com\library\app\commontests\author\AuthorForTestsRepository.class
+com\library\app\commontests\utils\TestBaseRepository.class
 com\library\app\commontests\utils\DBCommand.class
 com\library\app\commontests\utils\TestRepositoryEJB.class
+com\library\app\author\services\impl\AuthorServicesUTest.class
 com\library\app\category\repository\CategoryRepositoryUTest.class
 com\library\app\category\services\impl\CategoryServicesUTest.class
+com\library\app\author\repository\AuthorRepositoryUTest.class
 com\library\app\commontests\utils\DBCommandTransactionalExecutor.class
 com\library\app\category\commontests\category\CategoryForTestsRepository.class

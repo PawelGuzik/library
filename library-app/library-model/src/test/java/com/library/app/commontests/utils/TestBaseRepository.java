@@ -4,18 +4,17 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import org.junit.After;
-import org.junit.Before;
+
 import org.junit.Ignore;
 
-import com.library.app.category.repository.CategoryRepository;
+
 
 @Ignore
 public class TestBaseRepository {
 
 	private EntityManagerFactory emf;
 	protected EntityManager em;
-	protected DBCommandTransactionalExecutor dBCommandExecutor;
+	protected DBCommandTransactionalExecutor dbCommandExecutor;
 
 	
 	protected void initializeTestDB() {
@@ -23,7 +22,7 @@ public class TestBaseRepository {
 		em = emf.createEntityManager();
 
 
-		dBCommandExecutor = new DBCommandTransactionalExecutor(em);
+		dbCommandExecutor = new DBCommandTransactionalExecutor(em);
 	}
 
 	protected void closeEntityManager() {

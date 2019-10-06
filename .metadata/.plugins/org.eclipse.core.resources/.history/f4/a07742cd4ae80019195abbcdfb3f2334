@@ -1,0 +1,99 @@
+package com.library.app.user.services.impl;
+
+import static com.library.app.commontests.user.UserForTestsRepository.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
+
+import javax.validation.Valid;
+import javax.validation.Validation;
+import javax.validation.Validator;
+
+import org.junit.Before;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.library.app.user.repository.UserRepository;
+import com.library.app.user.services.UserServices;
+
+public class UserServicesUTest {
+	private static Validator validator;
+	private UserServices userServices;
+	
+	@Mock
+	private UserRepository userRepository;
+	
+	@Before
+	public void initTestCase() {
+		validator = Validation.buildDefaultValidatorFactory().getValidator();
+		
+		MockitoAnnotations.initMocks(this);
+		
+		userServices = new UserServicesImpl();
+		((UserServicesImpl) userServices).userRepository = userRepository;
+		((UserServicesImpl) userServices).validator = validator;
+	}
+	
+	@Test
+	public void addUserWithNullName() {
+		final User user = johnDoe();
+		user.setName(null);
+		addUserWithInvalidField(user, "name");
+	}
+
+	@Test
+	public void addUserWithShortName() {
+		final User user = johnDoe();
+		user.setName("Jo");
+		addUserWithInvalidField(user, "name");
+	}
+
+	@Test
+	public void addUserWithNullEmail() {
+		final User user = johnDoe();
+		user.setEmail(null);
+		addUserWithInvalidField(user, "email");
+	}
+
+	@Test
+	public void addUserWithInvalidEmail() {
+		final User user = johnDoe();
+		user.setEmail("invalidemail");
+		addUserWithInvalidField(user, "email");
+	}
+
+	@Test
+	public void addUserWithNullPassword() {
+		final User user = johnDoe();
+		user.setPassword(null);
+		addUserWithInvalidField(user, "password");
+	}
+
+	@Test(expected = UserExistentException.class)
+	public void addExistentUser() {
+		when(userRepository.alreadyExists(johnDoe())).thenThrow(new UserExistentException());
+
+		userServices.add(johnDoe());
+	}
+
+	@Test
+	public void addValidUser() {
+		when(userRepository.alreadyExists(johnDoe())).thenReturn(false);
+		when(userRepository.add(userEq(userWithEncryptedPassword(johnDoe()))))
+				.thenReturn(userWithIdAndCreatedAt(johnDoe(), 1L));
+
+		final User user = userServices.add(johnDoe());
+		assertThat(user.getId(), is(equalTo(1L)));
+	}
+
+	private void addUserWithInvalidField(final User user, final String expectedInvalidFieldName) {
+		try {
+			userServices.add(user);
+			fail("An error should have been thrown");
+		} catch (final FieldNotValidException e) {
+			assertThat(e.getFieldName(), is(equalTo(expectedInvalidFieldName)));
+		}
+	}
+
+}

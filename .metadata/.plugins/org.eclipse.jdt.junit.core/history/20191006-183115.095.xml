@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServicesUTest" project="library-model" tests="15" started="15" failures="0" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.services.impl.UserServicesUTest" time="0.625">
+    <testcase name="findUserByIdNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.276"/>
+    <testcase name="addUserWithNullEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.188"/>
+    <testcase name="addValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.044"/>
+    <testcase name="updatePasswordUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.005"/>
+    <testcase name="addExistentUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithShortName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.019"/>
+    <testcase name="updateUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="findUserById" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.015"/>
+    <testcase name="updateValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.018"/>
+    <testcase name="updateUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.015"/>
+    <testcase name="updateUserExistent" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.001"/>
+    <testcase name="addUserWithInvalidEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.011"/>
+    <testcase name="addUserWithNullPassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.014"/>
+    <testcase name="updatePassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+  </testsuite>
+</testrun>

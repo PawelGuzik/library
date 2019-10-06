@@ -1,0 +1,5 @@
+package com.library.app.commontests.author;
+
+public class AuthorResourceDB {
+
+}

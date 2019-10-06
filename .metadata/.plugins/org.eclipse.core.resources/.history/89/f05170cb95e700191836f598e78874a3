@@ -1,0 +1,17 @@
+package com.library.app.user.model;
+
+import java.io.Serializable;
+
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.Entity;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.Table;
+
+@Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "type")
+@Table(name = "lib_user")
+public abstract class User implements Serializable {
+	
+}

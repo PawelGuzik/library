@@ -41,7 +41,7 @@ public class AuthorRepositoryUTest extends TestBaseRepository {
 
 	@Test
 	public void addAuthorAndFindIt() throws IllegalStateException {
-		final Long authorAddedId = dBCommandExecutor.executeCommand(() -> {
+		final Long authorAddedId = dbCommandExecutor.executeCommand(() -> {
 			return authorRepository.add(robertMartin()).getId();
 		});
 		assertThat(authorAddedId, is(notNullValue()));
@@ -59,7 +59,7 @@ public class AuthorRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void updateAuthor() throws IllegalStateException {
-		final Long authorAddedId = dBCommandExecutor.executeCommand(() -> {
+		final Long authorAddedId = dbCommandExecutor.executeCommand(() -> {
 			return authorRepository.add(robertMartin()).getId();
 		});
 		assertThat(authorAddedId, is(notNullValue()));
@@ -68,7 +68,7 @@ public class AuthorRepositoryUTest extends TestBaseRepository {
 		assertThat(author.getName(), is(equalTo(robertMartin().getName())));
 
 		author.setName("Uncle Bob");
-		dBCommandExecutor.executeCommand(() -> {
+		dbCommandExecutor.executeCommand(() -> {
 			authorRepository.update(author);
 			return null;
 		});
@@ -79,7 +79,7 @@ public class AuthorRepositoryUTest extends TestBaseRepository {
 	
 	@Test
 	public void existsById() throws IllegalStateException {
-		final Long authorAddedId = dBCommandExecutor.executeCommand(() -> {
+		final Long authorAddedId = dbCommandExecutor.executeCommand(() -> {
 			return authorRepository.add(robertMartin()).getId();
 		});
 
@@ -123,7 +123,7 @@ public class AuthorRepositoryUTest extends TestBaseRepository {
 	
 	
 	private void loadDataForFindByFilter() throws IllegalStateException {
-		dBCommandExecutor.executeCommand(() -> {
+		dbCommandExecutor.executeCommand(() -> {
 			authorRepository.add(robertMartin());
 			authorRepository.add(jamesGosling());
 			authorRepository.add(martinFowler());

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServicesUTest" project="library-model" tests="17" started="17" failures="0" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.services.impl.UserServicesUTest" time="0.603">
+    <testcase name="findUserByIdNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.246"/>
+    <testcase name="findUserByEmailNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.006"/>
+    <testcase name="addUserWithNullEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.178"/>
+    <testcase name="addValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.044"/>
+    <testcase name="updatePasswordUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.005"/>
+    <testcase name="addExistentUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithShortName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.024"/>
+    <testcase name="updateUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.005"/>
+    <testcase name="findUserById" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.016"/>
+    <testcase name="updateValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.018"/>
+    <testcase name="updateUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.013"/>
+    <testcase name="updateUserExistent" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.003"/>
+    <testcase name="addUserWithInvalidEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.011"/>
+    <testcase name="findUserByEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithNullPassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.016"/>
+    <testcase name="updatePassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.006"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServicesUTest" project="library-model" tests="15" started="15" failures="1" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.services.impl.UserServicesUTest" time="0.677">
+    <testcase name="findUserByIdNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.28"/>
+    <testcase name="addUserWithNullEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.218"/>
+    <testcase name="addValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.043"/>
+    <testcase name="updatePasswordUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.005"/>
+    <testcase name="addExistentUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.003"/>
+    <testcase name="addUserWithShortName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.02"/>
+    <testcase name="updateUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="findUserById" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.015"/>
+    <testcase name="updateValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.022"/>
+    <testcase name="updateUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.019"/>
+    <testcase name="updateUserExistent" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.006"/>
+    <testcase name="addUserWithInvalidEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.013"/>
+    <testcase name="addUserWithNullPassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.015"/>
+    <testcase name="updatePassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.01">
+      <failure>java.lang.AssertionError: 
+Expected: is "ou/bzXqNRfLaCZK4IAiSJJzw5bcrzGHTOmnlI9kj+8Y="
+     but: was "654654"&#13;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)&#13;
+	at org.junit.Assert.assertThat(Assert.java:865)&#13;
+	at org.junit.Assert.assertThat(Assert.java:832)&#13;
+	at com.library.app.commontests.user.UserArgunentMatcher.matches(UserArgunentMatcher.java:32)&#13;
+	at org.mockito.internal.matchers.LocalizedMatcher.matches(LocalizedMatcher.java:30)&#13;
+	at org.mockito.internal.invocation.ArgumentsComparator.argumentsMatch(ArgumentsComparator.java:26)&#13;
+	at org.mockito.internal.invocation.ArgumentsComparator.argumentsMatch(ArgumentsComparator.java:18)&#13;
+	at org.mockito.internal.invocation.InvocationMatcher.matches(InvocationMatcher.java:58)&#13;
+	at org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching.isOut(InvocationsFinder.java:145)&#13;
+	at org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching.isOut(InvocationsFinder.java:137)&#13;
+	at org.mockito.internal.util.collections.ListUtil.filter(ListUtil.java:16)&#13;
+	at org.mockito.internal.invocation.InvocationsFinder.findInvocations(InvocationsFinder.java:20)&#13;
+	at org.mockito.internal.verification.checkers.MissingInvocationChecker.check(MissingInvocationChecker.java:32)&#13;
+	at org.mockito.internal.verification.Times.verify(Times.java:36)&#13;
+	at org.mockito.internal.verification.MockAwareVerificationMode.verify(MockAwareVerificationMode.java:21)&#13;
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:72)&#13;
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)&#13;
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)&#13;
+	at org.mockito.internal.creation.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:51)&#13;
+	at com.library.app.user.repository.UserRepository$$EnhancerByMockitoWithCGLIB$$fba79f19.update(&lt;generated&gt;)&#13;
+	at com.library.app.user.services.impl.UserServicesUTest.updatePassword(UserServicesUTest.java:172)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,23 @@
+package com.library.app.author.resource;
+
+import javax.ws.rs.core.UriInfo;
+
+import org.junit.Before;
+import org.mockito.MockitoAnnotations;
+
+public class AuthorFilterExtractorFromUrlUTest {
+	
+	@Mock
+	private UriInfo uriInfo;
+	
+	@Before
+	public void inittestCase() {
+		MockitoAnnotations.initMocks(this);
+	}
+	
+	@Test
+	public void onlyDefaultValues() {
+		
+	}
+
+}

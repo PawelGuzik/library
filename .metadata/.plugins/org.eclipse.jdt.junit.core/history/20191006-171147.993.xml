@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServicesUTest" project="library-model" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.services.impl.UserServicesUTest" time="0.508">
+    <testcase name="addUserWithNullEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.43"/>
+    <testcase name="addUserWithShortName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.031"/>
+    <testcase name="addUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.016"/>
+    <testcase name="addUserWithInvalidEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.015"/>
+    <testcase name="addUserWithNullPassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.016"/>
+  </testsuite>
+</testrun>

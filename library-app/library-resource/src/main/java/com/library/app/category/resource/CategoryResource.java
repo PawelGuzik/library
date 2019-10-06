@@ -33,6 +33,7 @@ import com.library.app.common.json.JsonWriter;
 import com.library.app.common.json.OperationResultJsonWriter;
 import com.library.app.common.model.HttpCode;
 import com.library.app.common.model.OperationResult;
+import com.library.app.common.model.PaginatedData;
 import com.library.app.common.model.ResourceMessage;
 
 
@@ -64,7 +65,7 @@ public class CategoryResource {
 		} catch (FieldNotValidException e) {
 			logger.error("One of the fields of the category is not valid", e);
 			httpCode = HttpCode.VALIDATION_ERROR;
-			result = getOperationInvalidField(RESOURCE_MESSAGE, e);
+			result = getOperationResultInvalidField(RESOURCE_MESSAGE, e);
 		} catch (CategoryExistentException e) {
 			logger.error("There's a already a category for the given name", e);
 			httpCode = HttpCode.VALIDATION_ERROR;
@@ -89,7 +90,7 @@ public class CategoryResource {
 		} catch (final FieldNotValidException e) {
 			logger.error("One of the field of the category is not valid", e);
 			httpCode = HttpCode.VALIDATION_ERROR;
-			result = getOperationInvalidField(RESOURCE_MESSAGE, e);
+			result = getOperationResultInvalidField(RESOURCE_MESSAGE, e);
 		} catch (final CategoryExistentException e) {
 			logger.error("There is already a category for the given name", e);
 			httpCode = HttpCode.VALIDATION_ERROR;
@@ -130,7 +131,7 @@ public class CategoryResource {
 		
 		logger.debug("Found {} categories", categories.size());
 		
-		JsonElement jsonWithPagingAndEntries = getJsonElementWithPagingAndEntries(categories);
+		JsonElement jsonWithPagingAndEntries = JsonUtils.getJsonElementWithPagingAndEntries(new PaginatedData<Category>(categories.size(), categories), categoryJsonConverter);
 		
 		return Response.status(HttpCode.OK.getCode()).entity(JsonWriter.writeToString(jsonWithPagingAndEntries)).build();
 	}

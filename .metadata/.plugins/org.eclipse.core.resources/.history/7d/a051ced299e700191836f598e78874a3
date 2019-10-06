@@ -1,0 +1,17 @@
+package com.library.app.user.model;
+
+import java.util.List;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue("CUSTOMER")
+public class Customer extends User {
+	
+	@Override
+	protected List<Roles> = getDefaultRoles(){
+		return null;
+	}
+
+}

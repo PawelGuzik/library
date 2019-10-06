@@ -1,0 +1,1059 @@
+2019-10-03 21:23:08,302 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2019-10-03 21:23:08,504 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2019-10-03 21:23:08,577 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2019-10-03 21:23:08,583 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_161\jre
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Maven\bin;D:\Maven\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = target/wildfly-8.1.0.Final\bundles
+	jboss.home.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final
+	jboss.host.name = p-pc
+	jboss.modules.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\modules
+	jboss.node.name = p-pc
+	jboss.qualified.host.name = p-pc
+	jboss.server.base.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = p-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Administrator/workspaceRedHatJBoss/UDEMY%20JavaEE/library-app/library-int-tests/target/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = target/wildfly-8.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_161\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\jboss-modules.jar -mp target/wildfly-8.1.0.Final\modules org.jboss.as.standalone -server-config standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	user.country = US
+	user.country.format = PL
+	user.dir = C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests
+	user.home = C:\Users\Administrator
+	user.language = en
+	user.language.format = pl
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2019-10-03 21:23:08,585 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Xmx512m -Djava.util.logging.manager=org.jboss.logmanager.LogManager -ea -Djboss.home.dir=target/wildfly-8.1.0.Final -Dorg.jboss.boot.log.file=C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:/C:/Users/Administrator/workspaceRedHatJBoss/UDEMY%20JavaEE/library-app/library-int-tests/target/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.bundles.dir=target/wildfly-8.1.0.Final\bundles 
+2019-10-03 21:23:10,108 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2019-10-03 21:23:10,126 INFO  [org.xnio] (MSC service thread 1-14) XNIO version 3.2.2.Final
+2019-10-03 21:23:10,136 INFO  [org.xnio.nio] (MSC service thread 1-14) XNIO NIO Implementation Version 3.2.2.Final
+2019-10-03 21:23:10,159 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2019-10-03 21:23:10,163 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2019-10-03 21:23:10,199 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2019-10-03 21:23:10,200 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2019-10-03 21:23:10,201 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2019-10-03 21:23:10,208 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2019-10-03 21:23:10,214 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2019-10-03 21:23:10,227 INFO  [org.jboss.as.security] (MSC service thread 1-10) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2019-10-03 21:23:10,242 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.0.15.Final starting
+2019-10-03 21:23:10,248 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2019-10-03 21:23:10,248 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017502: Undertow 1.0.15.Final starting
+2019-10-03 21:23:10,257 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2019-10-03 21:23:10,268 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-10-03 21:23:10,272 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-15) JBAS010417: Started Driver service with driver-name = h2
+2019-10-03 21:23:10,330 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2019-10-03 21:23:10,494 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-11) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2019-10-03 21:23:10,543 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final/welcome-content
+2019-10-03 21:23:10,579 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017525: Started server default-server.
+2019-10-03 21:23:10,640 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017531: Host default-host starting
+2019-10-03 21:23:10,745 INFO  [org.jboss.remoting] (MSC service thread 1-14) JBoss Remoting version 4.0.3.Final
+2019-10-03 21:23:10,790 WARN  [jacorb.codeset] (MSC service thread 1-12) Warning - unknown codeset (Cp1250) - defaulting to ISO-8859-1
+2019-10-03 21:23:10,803 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2019-10-03 21:23:10,837 INFO  [org.jboss.as.jacorb] (MSC service thread 1-12) JBAS016330: CORBA ORB Service started
+2019-10-03 21:23:10,838 WARN  [org.jboss.as.messaging] (MSC service thread 1-8) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+2019-10-03 21:23:10,884 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\deployments
+2019-10-03 21:23:10,922 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2019-10-03 21:23:10,965 INFO  [org.jboss.as.jacorb] (MSC service thread 1-14) JBAS016328: CORBA Naming Service started
+2019-10-03 21:23:11,134 INFO  [org.jboss.ws.common.management] (MSC service thread 1-16) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2019-10-03 21:23:12,551 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\messagingjournal,bindingsDirectory=C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\messagingpaging)
+2019-10-03 21:23:12,553 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2019-10-03 21:23:12,577 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221013: Using NIO Journal
+2019-10-03 21:23:12,597 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2019-10-03 21:23:12,615 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2019-10-03 21:23:12,621 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2019-10-03 21:23:12,624 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2019-10-03 21:23:13,283 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2019-10-03 21:23:13,284 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2019-10-03 21:23:14,866 INFO  [org.jboss.messaging] (MSC service thread 1-10) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2019-10-03 21:23:14,866 INFO  [org.jboss.messaging] (MSC service thread 1-1) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2019-10-03 21:23:15,969 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2019-10-03 21:23:15,969 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.1.Final (Fast Hornet, 124) [3d3178bf-e613-11e9-873c-2323e0e3d286] 
+2019-10-03 21:23:15,972 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221003: trying to deploy queue jms.queue.DLQ
+2019-10-03 21:23:16,035 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-14) JBAS010406: Registered connection factory java:/JmsXA
+2019-10-03 21:23:16,056 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2019-10-03 21:23:16,058 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2019-10-03 21:23:16,075 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2019-10-03 21:23:16,080 INFO  [org.hornetq.ra] (MSC service thread 1-14) HornetQ resource adaptor started
+2019-10-03 21:23:16,081 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-14) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2019-10-03 21:23:16,081 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2019-10-03 21:23:16,082 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2019-10-03 21:23:16,083 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2019-10-03 21:23:16,084 INFO  [org.jboss.as.messaging] (MSC service thread 1-11) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2019-10-03 21:23:16,285 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2019-10-03 21:23:16,286 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2019-10-03 21:23:16,287 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 8357ms - Started 218 of 266 services (92 services are lazy, passive or on-demand)
+2019-10-03 21:23:18,959 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014900: Content added at location C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\content\fd\5b762da4d1f8daa92e9600303a9d2cd49f9bdd\content
+2019-10-03 21:23:18,998 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015876: Starting deployment of "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" (runtime-name: "290fd694-200f-4c5e-b03d-3cbfddde05a1.war")
+2019-10-03 21:23:20,219 INFO  [org.jboss.as.jpa] (MSC service thread 1-10) JBAS011401: Read persistence.xml for libraryPU
+2019-10-03 21:23:20,638 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service '290fd694-200f-4c5e-b03d-3cbfddde05a1.war#libraryPU'
+2019-10-03 21:23:20,649 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 3) HHH000204: Processing PersistenceUnitInfo [
+	name: libraryPU
+	...]
+2019-10-03 21:23:20,721 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 3) HHH000412: Hibernate Core {4.3.5.Final}
+2019-10-03 21:23:20,723 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 3) HHH000206: hibernate.properties not found
+2019-10-03 21:23:20,725 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 3) HHH000021: Bytecode provider name : javassist
+2019-10-03 21:23:20,968 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment 290fd694-200f-4c5e-b03d-3cbfddde05a1.war
+2019-10-03 21:23:21,028 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.1.0.Final
+2019-10-03 21:23:21,094 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named TestRepositoryEJB in deployment unit deployment "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" are as follows:
+
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/TestRepositoryEJB!com.library.app.commontests.utils.TestRepositoryEJB
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/TestRepositoryEJB!com.library.app.commontests.utils.TestRepositoryEJB
+	java:module/TestRepositoryEJB!com.library.app.commontests.utils.TestRepositoryEJB
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/TestRepositoryEJB
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/TestRepositoryEJB
+	java:module/TestRepositoryEJB
+
+2019-10-03 21:23:21,094 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named AuthorRepository in deployment unit deployment "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" are as follows:
+
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorRepository!com.library.app.author.repository.AuthorRepository
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorRepository!com.library.app.author.repository.AuthorRepository
+	java:module/AuthorRepository!com.library.app.author.repository.AuthorRepository
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorRepository
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorRepository
+	java:module/AuthorRepository
+
+2019-10-03 21:23:21,094 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CategoryRepository in deployment unit deployment "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" are as follows:
+
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryRepository!com.library.app.category.repository.CategoryRepository
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryRepository!com.library.app.category.repository.CategoryRepository
+	java:module/CategoryRepository!com.library.app.category.repository.CategoryRepository
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryRepository
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryRepository
+	java:module/CategoryRepository
+
+2019-10-03 21:23:21,095 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named AuthorServicesImpl in deployment unit deployment "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" are as follows:
+
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorServicesImpl!com.library.app.author.services.AuthorServices
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorServicesImpl!com.library.app.author.services.AuthorServices
+	java:module/AuthorServicesImpl!com.library.app.author.services.AuthorServices
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorServicesImpl
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/AuthorServicesImpl
+	java:module/AuthorServicesImpl
+
+2019-10-03 21:23:21,095 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CategoryServicesImpl in deployment unit deployment "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" are as follows:
+
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryServicesImpl!com.library.app.category.services.CategoryServices
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryServicesImpl!com.library.app.category.services.CategoryServices
+	java:module/CategoryServicesImpl!com.library.app.category.services.CategoryServices
+	java:global/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryServicesImpl
+	java:app/290fd694-200f-4c5e-b03d-3cbfddde05a1/CategoryServicesImpl
+	java:module/CategoryServicesImpl
+
+2019-10-03 21:23:21,295 INFO  [org.jboss.weld.deployer] (MSC service thread 1-15) JBAS016005: Starting Services for CDI deployment: 290fd694-200f-4c5e-b03d-3cbfddde05a1.war
+2019-10-03 21:23:21,326 INFO  [org.jboss.weld.Version] (MSC service thread 1-15) WELD-000900: 2.1.2 (Final)
+2019-10-03 21:23:21,356 INFO  [org.jboss.weld.deployer] (MSC service thread 1-15) JBAS016008: Starting weld service for deployment 290fd694-200f-4c5e-b03d-3cbfddde05a1.war
+2019-10-03 21:23:21,480 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service '290fd694-200f-4c5e-b03d-3cbfddde05a1.war#libraryPU'
+2019-10-03 21:23:21,556 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 3) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2019-10-03 21:23:21,755 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 3) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-03 21:23:21,764 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 3) HHH000431: Unable to determine H2 database version, certain features may not work
+2019-10-03 21:23:21,851 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 3) HHH000397: Using ASTQueryTranslatorFactory
+2019-10-03 21:23:22,128 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000227: Running hbm2ddl schema export
+2019-10-03 21:23:22,139 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000230: Schema export complete
+2019-10-03 21:23:22,297 INFO  [org.jboss.weld.Bootstrap] (weld-worker-4) WELD-000119: Not generating any bean definitions from com.library.app.commontests.utils.JsonTestUtils because of underlying class loading error: Type org.json.JSONException from [Module "deployment.290fd694-200f-4c5e-b03d-3cbfddde05a1.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2019-10-03 21:23:23,091 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017534: Registered web context: /290fd694-200f-4c5e-b03d-3cbfddde05a1
+2019-10-03 21:23:24,157 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018559: Deployed "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" (runtime-name : "290fd694-200f-4c5e-b03d-3cbfddde05a1.war")
+2019-10-03 21:23:26,541 ERROR [com.library.app.author.resource.AuthorResource] (default task-2) No author found for the given id: com.library.app.author.exception.AuthorNotFoundException
+	at com.library.app.author.services.impl.AuthorServicesImpl.update(AuthorServicesImpl.java:39) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47) [wildfly-jpa-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.library.app.author.services.AuthorServices$$$view4.update(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:401) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:99) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:65) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at com.library.app.author.services.impl.AuthorServices$944853163$Proxy$_$$_Weld$EnterpriseProxy$.update(Unknown Source) [classes:]
+	at com.library.app.author.resource.AuthorResource.update(AuthorResource.java:85) [classes:]
+	at com.library.app.author.resource.AuthorResource$Proxy$_$$_WeldClientProxy.update(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2019-10-03 21:23:26,839 ERROR [com.library.app.author.resource.AuthorResource] (default task-8) No author found for id
+2019-10-03 21:23:26,985 ERROR [com.library.app.author.resource.AuthorResource] (default task-15) One of the fileds of the author is not valid: FieldNotValidException [filedName=name]
+	at com.library.app.common.utils.ValidationUtils.validateEntityFields(ValidationUtils.java:19) [classes:]
+	at com.library.app.author.services.impl.AuthorServicesImpl.add(AuthorServicesImpl.java:31) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47) [wildfly-jpa-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.library.app.author.services.AuthorServices$$$view4.add(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:401) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:99) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:65) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at com.library.app.author.services.impl.AuthorServices$944853163$Proxy$_$$_Weld$EnterpriseProxy$.add(Unknown Source) [classes:]
+	at com.library.app.author.resource.AuthorResource.add(AuthorResource.java:63) [classes:]
+	at com.library.app.author.resource.AuthorResource$Proxy$_$$_WeldClientProxy.add(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2019-10-03 21:23:27,088 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017535: Unregistered web context: /290fd694-200f-4c5e-b03d-3cbfddde05a1
+2019-10-03 21:23:27,099 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service '290fd694-200f-4c5e-b03d-3cbfddde05a1.war#libraryPU'
+2019-10-03 21:23:27,100 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000227: Running hbm2ddl schema export
+2019-10-03 21:23:27,106 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000230: Schema export complete
+2019-10-03 21:23:27,108 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment 290fd694-200f-4c5e-b03d-3cbfddde05a1.war
+2019-10-03 21:23:27,142 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service '290fd694-200f-4c5e-b03d-3cbfddde05a1.war#libraryPU'
+2019-10-03 21:23:27,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015877: Stopped deployment 290fd694-200f-4c5e-b03d-3cbfddde05a1.war (runtime-name: 290fd694-200f-4c5e-b03d-3cbfddde05a1.war) in 281ms
+2019-10-03 21:23:28,467 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\content\fd\5b762da4d1f8daa92e9600303a9d2cd49f9bdd\content
+2019-10-03 21:23:28,467 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "290fd694-200f-4c5e-b03d-3cbfddde05a1.war" (runtime-name: "290fd694-200f-4c5e-b03d-3cbfddde05a1.war")
+2019-10-03 21:23:30,051 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\content\1d\99e55672071ff9ed326fc664a905ad9a26d32b\content
+2019-10-03 21:23:30,056 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" (runtime-name: "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war")
+2019-10-03 21:23:30,465 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for libraryPU
+2019-10-03 21:23:30,561 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war#libraryPU'
+2019-10-03 21:23:30,562 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 2) HHH000204: Processing PersistenceUnitInfo [
+	name: libraryPU
+	...]
+2019-10-03 21:23:30,692 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war
+2019-10-03 21:23:30,700 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named TestRepositoryEJB in deployment unit deployment "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" are as follows:
+
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/TestRepositoryEJB!com.library.app.commontests.utils.TestRepositoryEJB
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/TestRepositoryEJB!com.library.app.commontests.utils.TestRepositoryEJB
+	java:module/TestRepositoryEJB!com.library.app.commontests.utils.TestRepositoryEJB
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/TestRepositoryEJB
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/TestRepositoryEJB
+	java:module/TestRepositoryEJB
+
+2019-10-03 21:23:30,701 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named AuthorRepository in deployment unit deployment "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" are as follows:
+
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorRepository!com.library.app.author.repository.AuthorRepository
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorRepository!com.library.app.author.repository.AuthorRepository
+	java:module/AuthorRepository!com.library.app.author.repository.AuthorRepository
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorRepository
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorRepository
+	java:module/AuthorRepository
+
+2019-10-03 21:23:30,701 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named CategoryRepository in deployment unit deployment "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" are as follows:
+
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryRepository!com.library.app.category.repository.CategoryRepository
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryRepository!com.library.app.category.repository.CategoryRepository
+	java:module/CategoryRepository!com.library.app.category.repository.CategoryRepository
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryRepository
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryRepository
+	java:module/CategoryRepository
+
+2019-10-03 21:23:30,701 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named AuthorServicesImpl in deployment unit deployment "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" are as follows:
+
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorServicesImpl!com.library.app.author.services.AuthorServices
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorServicesImpl!com.library.app.author.services.AuthorServices
+	java:module/AuthorServicesImpl!com.library.app.author.services.AuthorServices
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorServicesImpl
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/AuthorServicesImpl
+	java:module/AuthorServicesImpl
+
+2019-10-03 21:23:30,701 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named CategoryServicesImpl in deployment unit deployment "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" are as follows:
+
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryServicesImpl!com.library.app.category.services.CategoryServices
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryServicesImpl!com.library.app.category.services.CategoryServices
+	java:module/CategoryServicesImpl!com.library.app.category.services.CategoryServices
+	java:global/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryServicesImpl
+	java:app/f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb/CategoryServicesImpl
+	java:module/CategoryServicesImpl
+
+2019-10-03 21:23:30,746 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war
+2019-10-03 21:23:30,752 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war
+2019-10-03 21:23:30,758 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war#libraryPU'
+2019-10-03 21:23:30,763 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 2) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-03 21:23:30,764 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 2) HHH000431: Unable to determine H2 database version, certain features may not work
+2019-10-03 21:23:30,768 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 2) HHH000397: Using ASTQueryTranslatorFactory
+2019-10-03 21:23:30,785 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000227: Running hbm2ddl schema export
+2019-10-03 21:23:30,803 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000230: Schema export complete
+2019-10-03 21:23:30,832 INFO  [org.jboss.weld.Bootstrap] (weld-worker-4) WELD-000119: Not generating any bean definitions from com.library.app.commontests.utils.JsonTestUtils because of underlying class loading error: Type org.json.JSONException from [Module "deployment.f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2019-10-03 21:23:31,107 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017534: Registered web context: /f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb
+2019-10-03 21:23:32,311 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018559: Deployed "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" (runtime-name : "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war")
+2019-10-03 21:23:32,474 ERROR [com.library.app.category.resource.CategoryResource] (default task-20) No category found for the given id: com.library.app.category.exception.CategoryNotFoundException
+	at com.library.app.category.services.impl.CategoryServicesImpl.update(CategoryServicesImpl.java:39) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47) [wildfly-jpa-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.library.app.category.services.CategoryServices$$$view10.update(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:401) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:99) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:65) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at com.library.app.category.services.impl.CategoryServices$1949351096$Proxy$_$$_Weld$EnterpriseProxy$.update(Unknown Source) [classes:]
+	at com.library.app.category.resource.CategoryResource.update(CategoryResource.java:88) [classes:]
+	at com.library.app.category.resource.CategoryResource$Proxy$_$$_WeldClientProxy.update(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2019-10-03 21:23:32,670 ERROR [com.library.app.category.resource.CategoryResource] (default task-30) No category found for id
+2019-10-03 21:23:32,704 ERROR [com.library.app.category.resource.CategoryResource] (default task-32) One of the fields of the category is not valid: FieldNotValidException [filedName=name]
+	at com.library.app.common.utils.ValidationUtils.validateEntityFields(ValidationUtils.java:19) [classes:]
+	at com.library.app.category.services.impl.CategoryServicesImpl.validateCategory(CategoryServicesImpl.java:58) [classes:]
+	at com.library.app.category.services.impl.CategoryServicesImpl.add(CategoryServicesImpl.java:29) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47) [wildfly-jpa-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.library.app.category.services.CategoryServices$$$view10.add(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:401) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:99) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:65) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at com.library.app.category.services.impl.CategoryServices$1949351096$Proxy$_$$_Weld$EnterpriseProxy$.add(Unknown Source) [classes:]
+	at com.library.app.category.resource.CategoryResource.add(CategoryResource.java:63) [classes:]
+	at com.library.app.category.resource.CategoryResource$Proxy$_$$_WeldClientProxy.add(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2019-10-03 21:23:32,821 ERROR [com.library.app.category.resource.CategoryResource] (default task-39) There is already a category for the given name: com.library.app.category.exception.CategoryExistentException
+	at com.library.app.category.services.impl.CategoryServicesImpl.validateCategory(CategoryServicesImpl.java:60) [classes:]
+	at com.library.app.category.services.impl.CategoryServicesImpl.update(CategoryServicesImpl.java:37) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47) [wildfly-jpa-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.library.app.category.services.CategoryServices$$$view10.update(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:401) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:99) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:65) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at com.library.app.category.services.impl.CategoryServices$1949351096$Proxy$_$$_Weld$EnterpriseProxy$.update(Unknown Source) [classes:]
+	at com.library.app.category.resource.CategoryResource.update(CategoryResource.java:88) [classes:]
+	at com.library.app.category.resource.CategoryResource$Proxy$_$$_WeldClientProxy.update(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2019-10-03 21:23:32,874 ERROR [com.library.app.category.resource.CategoryResource] (default task-42) There's a already a category for the given name: com.library.app.category.exception.CategoryExistentException
+	at com.library.app.category.services.impl.CategoryServicesImpl.validateCategory(CategoryServicesImpl.java:60) [classes:]
+	at com.library.app.category.services.impl.CategoryServicesImpl.add(CategoryServicesImpl.java:29) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47) [wildfly-jpa-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.library.app.category.services.CategoryServices$$$view10.add(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:401) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:99) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:65) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100) [weld-core-impl-2.1.2.Final.jar:2014-01-09 09:23]
+	at com.library.app.category.services.impl.CategoryServices$1949351096$Proxy$_$$_Weld$EnterpriseProxy$.add(Unknown Source) [classes:]
+	at com.library.app.category.resource.CategoryResource.add(CategoryResource.java:63) [classes:]
+	at com.library.app.category.resource.CategoryResource$Proxy$_$$_WeldClientProxy.add(Unknown Source) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.8.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2019-10-03 21:23:32,889 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017535: Unregistered web context: /f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb
+2019-10-03 21:23:32,897 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war#libraryPU'
+2019-10-03 21:23:32,897 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 14) HHH000227: Running hbm2ddl schema export
+2019-10-03 21:23:32,900 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 14) HHH000230: Schema export complete
+2019-10-03 21:23:32,901 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016009: Stopping weld service for deployment f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war
+2019-10-03 21:23:32,912 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war#libraryPU'
+2019-10-03 21:23:33,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war (runtime-name: f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war) in 261ms
+2019-10-03 21:23:34,041 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014901: Content removed from location C:\Users\Administrator\workspaceRedHatJBoss\UDEMY JavaEE\library-app\library-int-tests\target\wildfly-8.1.0.Final\standalone\data\content\1d\99e55672071ff9ed326fc664a905ad9a26d32b\content
+2019-10-03 21:23:34,041 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018558: Undeployed "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war" (runtime-name: "f770bb2c-7ea3-4b69-a1d5-7bd8aad6cceb.war")
+2019-10-03 21:23:34,055 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-10-03 21:23:34,056 INFO  [org.jboss.as.messaging] (MSC service thread 1-15) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2019-10-03 21:23:34,058 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-13) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+2019-10-03 21:23:34,059 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017532: Host default-host stopping
+2019-10-03 21:23:34,063 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 14) JBAS011605: Unbound messaging object to jndi name java:/jms/queue/DLQ
+2019-10-03 21:23:34,069 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = h2
+2019-10-03 21:23:34,087 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 2) HQ151003: HornetQ resource adaptor stopped
+2019-10-03 21:23:34,201 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 2) HQ221002: HornetQ Server version 2.4.1.Final (Fast Hornet, 124) [3d3178bf-e613-11e9-873c-2323e0e3d286] stopped
+2019-10-03 21:23:34,205 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017521: Undertow HTTP listener default suspending
+2019-10-03 21:23:34,208 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017520: Undertow HTTP listener default stopped, was bound to 127.0.0.1/127.0.0.1:8080
+2019-10-03 21:23:34,215 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017506: Undertow 1.0.15.Final stopping
+2019-10-03 21:23:34,226 INFO  [org.jboss.as] (MSC service thread 1-15) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 169ms

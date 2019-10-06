@@ -1,0 +1,8 @@
+com\library\app\commontests\author\AuthorResourceDB.class
+com\library\app\category\resource\CategoryResourceIntTest.class
+com\library\app\author\resource\AuthorResourceIntTest.class
+com\library\app\commontests\utils\ArquillianTestUtils.class
+com\library\app\commontests\utils\DBResource.class
+com\library\app\commontests\utils\IntTestUtils.class
+com\library\app\commontests\utils\ResourceClient.class
+com\library\app\commontests\category\CategoryResourceDB.class

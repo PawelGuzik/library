@@ -1,0 +1,19 @@
+package com.library.app.commontests.user;
+
+
+import com.library.app.user.model.Customer;
+import com.library.app.user.model.User;
+
+public class UserForTestsRepository {
+	
+	public static User johnDoe() {
+		final User user = new Customer();
+		user.setName("John doe");
+		user.setEmail("john@domain.com");
+		user.setPassword("123456");
+		
+		return user;
+		
+	}
+
+}

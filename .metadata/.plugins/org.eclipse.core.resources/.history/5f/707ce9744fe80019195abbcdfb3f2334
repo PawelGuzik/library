@@ -1,0 +1,23 @@
+package com.library.app.common.utils;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
+public class DateUtils {
+	private static final String FORMAT = "yyy-MM-dd'T'HH:mm:ss'Z'";
+	
+	public static Date getAsDateTime(String dateTime) {
+		try {
+			return new SimpleDateFormat(FORMAT).parse(dateTime);
+		}catch(final ParseException e) {
+			throw new IllegalArgumentException(e);
+		}
+		
+		public static String formatDateTime(Date date) {
+			return new SimpleDateFormat(FORMAT).format(date);
+		}
+	}
+	
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServicesUTest" project="library-model" tests="13" started="13" failures="0" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.services.impl.UserServicesUTest" time="0.616">
+    <testcase name="findUserByIdNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.26"/>
+    <testcase name="addUserWithNullEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.199"/>
+    <testcase name="addValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.043"/>
+    <testcase name="addExistentUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.005"/>
+    <testcase name="addUserWithShortName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.023"/>
+    <testcase name="updateUserNotFound" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="findUserById" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.018"/>
+    <testcase name="updateValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.017"/>
+    <testcase name="updateUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.013"/>
+    <testcase name="updateUserExistent" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.004"/>
+    <testcase name="addUserWithInvalidEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.01"/>
+    <testcase name="addUserWithNullPassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.016"/>
+  </testsuite>
+</testrun>

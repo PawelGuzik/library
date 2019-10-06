@@ -1,0 +1,5 @@
+package com.library.app.user.excpetion;
+
+public class UserExistentException {
+
+}

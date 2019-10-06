@@ -1,0 +1,38 @@
+package com.library.app.user.services.impl;
+
+import static com.library.app.commontests.user.UserForTestsRepository.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
+
+import javax.validation.Valid;
+import javax.validation.Validation;
+import javax.validation.Validator;
+
+import org.junit.Before;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.library.app.user.repository.UserRepository;
+import com.library.app.user.services.UserServices;
+
+public class UserServicesUTest {
+	private static Validator validator;
+	private UserServices userServices;
+	
+	@Mock
+	private UserRepository userRepository;
+	
+	@Before
+	public void initTestCase() {
+		validator = Validation.buildDefaultValidatorFactory().getValidator();
+		
+		MockitoAnnotations.initMocks(this);
+		
+		userServices = new UserServicesImpl();
+		((UserServicesImpl) userServices).userRepository = userRepository;
+		((UserServicesImpl) userServices).validator = validator;
+	}
+
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServicesUTest" project="library-model" tests="7" started="7" failures="1" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.services.impl.UserServicesUTest" time="0.559">
+    <testcase name="addUserWithNullEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.421"/>
+    <testcase name="addValidUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.058">
+      <failure>java.lang.AssertionError: 
+Expected: is "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI="
+     but: was "123456"&#13;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)&#13;
+	at org.junit.Assert.assertThat(Assert.java:865)&#13;
+	at org.junit.Assert.assertThat(Assert.java:832)&#13;
+	at com.library.app.commontests.user.UserArgunentMatcher.matches(UserArgunentMatcher.java:32)&#13;
+	at org.mockito.internal.matchers.LocalizedMatcher.matches(LocalizedMatcher.java:30)&#13;
+	at org.mockito.internal.invocation.ArgumentsComparator.argumentsMatch(ArgumentsComparator.java:26)&#13;
+	at org.mockito.internal.invocation.ArgumentsComparator.argumentsMatch(ArgumentsComparator.java:18)&#13;
+	at org.mockito.internal.invocation.InvocationMatcher.matches(InvocationMatcher.java:58)&#13;
+	at org.mockito.internal.stubbing.InvocationContainerImpl.findAnswerFor(InvocationContainerImpl.java:75)&#13;
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:87)&#13;
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)&#13;
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)&#13;
+	at org.mockito.internal.creation.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:51)&#13;
+	at com.library.app.user.repository.UserRepository$$EnhancerByMockitoWithCGLIB$$fba79f19.add(&lt;generated&gt;)&#13;
+	at com.library.app.user.services.impl.UserServicesImpl.add(UserServicesImpl.java:27)&#13;
+	at com.library.app.user.services.impl.UserServicesUTest.addValidUser(UserServicesUTest.java:90)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="addExistentUser" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.006"/>
+    <testcase name="addUserWithShortName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.022"/>
+    <testcase name="addUserWithNullName" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.018"/>
+    <testcase name="addUserWithInvalidEmail" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.017"/>
+    <testcase name="addUserWithNullPassword" classname="com.library.app.user.services.impl.UserServicesUTest" time="0.016"/>
+  </testsuite>
+</testrun>

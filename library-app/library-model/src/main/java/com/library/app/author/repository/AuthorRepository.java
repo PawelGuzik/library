@@ -45,35 +45,10 @@ public class AuthorRepository extends GenericRepository<Author> {
 			queryParameters.put("name", "%" + filter.getName() + "%");
 		}
 		
-		final StringBuilder clauseSort = new StringBuilder();
-		if(filter.hasOrderField()) {
-			clauseSort.append("ORDER BY e." + filter.getPaginationData().getOrderField());
-			clauseSort.append(filter.getPaginationData().isAscending() ? " ASC" : " DESC");
-		}else {
-			clauseSort.append("ORDER BY e.name ASC");
-		}
-		final Query queryAuthors = em.createQuery("SELECT e FROM Author e " + clause.toString() + " "
-				+ clauseSort.toString());
-		applyQueryParameters(queryParameters, queryAuthors);
-		if(filter.hasPaginationData()) {
-			queryAuthors.setFirstResult(filter.getPaginationData().getFirstResult());
-			queryAuthors.setMaxResults(filter.getPaginationData().getMaxResults());
-		}
-		
-		final List<Author> authors = queryAuthors.getResultList();
-		
-		final Query queryCount = em.createQuery("SELECT Count (e) From Author e " + clause.toString());
-		applyQueryParameters(queryParameters, queryCount);
-		final Integer count = ((Long) queryCount.getSingleResult()).intValue();
-		
-		return new PaginatedData<>(count, authors);
+		return findByParameters(clause.toString(), filter.getPaginationData(), queryParameters, "name ASC");
 	}
 	
-	private void applyQueryParameters(final Map<String, Object> queryParameters, final Query query) {
-		for(final Entry<String, Object> entryMap : queryParameters.entrySet()) {
-			query.setParameter(entryMap.getKey(), entryMap.getValue());
-		}
-	}
+
 
 	
 }

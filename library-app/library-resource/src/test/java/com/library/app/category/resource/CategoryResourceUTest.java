@@ -2,7 +2,7 @@ package com.library.app.category.resource;
 import static org.hamcrest.CoreMatchers.*;
 import static com.library.app.category.commontests.category.CategoryForTestsRepository.*;
 import static com.library.app.commontests.utils.FileTestNameUtils.*;
-import static com.library.app.commontests.utils.JsonTestsUtils.*;
+import static com.library.app.commontests.utils.JsonTestUtils.*;
 import static org.mockito.Mockito.*;
 
 import java.io.FileNotFoundException;
@@ -17,7 +17,7 @@ import org.hamcrest.CoreMatchers.*;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.MockitoAnnotations;
-import org.mockito.MockitoAnnotations.Mock;
+import org.mockito.Mock;
 
 import com.library.app.category.exception.CategoryExistentException;
 import com.library.app.category.exception.CategoryNotFoundException;
@@ -50,7 +50,7 @@ public class CategoryResourceUTest {
 	public void addValidCategory() {
 		when(categoryServices.add(java())).thenReturn(categoryWithId(java(), 1L));
 		
-		Response response = categoryResource.add(readJsonFile(getPathFilerequest(PATH_RESOURCE	, "newCategory.json")));
+		Response response = categoryResource.add(readJsonFile(getPathFileRequest(PATH_RESOURCE	, "newCategory.json")));
 		assertThat(response.getStatus(), is(equalTo(HttpCode.CREATED.getCode())));
 		assertJsonMatchesExpectedJson(response.getEntity().toString(), "{\"id\": 1}");
 	}
@@ -59,7 +59,7 @@ public class CategoryResourceUTest {
 	public void addExistentCategory() {
 		when(categoryServices.add(java())).thenThrow(new CategoryExistentException());
 		
-		final Response response = categoryResource.add(readJsonFile(getPathFilerequest(PATH_RESOURCE, "newCategory.json")));
+		final Response response = categoryResource.add(readJsonFile(getPathFileRequest(PATH_RESOURCE, "newCategory.json")));
 		assertThat(response.getStatus(), is(equalTo(HttpCode.VALIDATION_ERROR.getCode())));
 		assertJsonResponseWithFile(response, "categoryAlreadyExists.json");
 	}
@@ -68,7 +68,7 @@ public class CategoryResourceUTest {
 	public void addCategoryWithNullName() {
 		when(categoryServices.add(new Category())).thenThrow(new FieldNotValidException("name", "may not be null"));
 		
-		final Response response = categoryResource.add(readJsonFile(getPathFilerequest(PATH_RESOURCE, "categoryWithNullName.json")));
+		final Response response = categoryResource.add(readJsonFile(getPathFileRequest(PATH_RESOURCE, "categoryWithNullName.json")));
 		assertThat(response.getStatus(), is(equalTo(HttpCode.VALIDATION_ERROR.getCode())));
 		assertJsonResponseWithFile(response, "categoryErrorNullName.json");
 	}
@@ -80,7 +80,7 @@ public class CategoryResourceUTest {
 	@Test
 	public void updateValidCategory() {
 		Response response = categoryResource.update(1L,
-				readJsonFile(getPathFilerequest(PATH_RESOURCE, "category.json")));
+				readJsonFile(getPathFileRequest(PATH_RESOURCE, "category.json")));
 		assertThat(response.getStatus(), is(equalTo(HttpCode.OK.getCode())));
 		assertThat(response.getEntity().toString(), is(equalTo("")));
 	}
@@ -89,7 +89,7 @@ public class CategoryResourceUTest {
 	public void updateCategoryWithNameBelongingToOtherCategory() {
 		doThrow(new CategoryExistentException()).when(categoryServices).update(categoryWithId(java(), 1L));
 		Response response = categoryResource.update(1L,
-				readJsonFile(getPathFilerequest(PATH_RESOURCE, "category.json")));
+				readJsonFile(getPathFileRequest(PATH_RESOURCE, "category.json")));
 		assertJsonResponseWithFile(response, "categoryAlreadyExists.json");
 	}
 	
@@ -104,7 +104,7 @@ public class CategoryResourceUTest {
 		doThrow(new CategoryNotFoundException()).when(categoryServices).update(categoryWithId(java(),2L));
 		
 		Response response = categoryResource.update(2L,
-				readJsonFile(getPathFilerequest(PATH_RESOURCE, "category.json")));
+				readJsonFile(getPathFileRequest(PATH_RESOURCE, "category.json")));
 		assertThat(response.getStatus(), is(equalTo(HttpCode.NOT_FOUND.getCode())));
 		assertJsonResponseWithFile(response, "categoryNotFound.json");
 		

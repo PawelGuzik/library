@@ -1,0 +1,11 @@
+package com.library.app.common.json;
+
+import com.google.gson.JsonElement;
+
+public interface EntityJsonConverter<T> {
+	
+	T convertFronJson(String json);
+	
+	JsonElement convertToJsonElement(T entity); 
+
+}

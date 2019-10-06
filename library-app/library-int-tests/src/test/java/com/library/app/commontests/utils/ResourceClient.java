@@ -1,6 +1,6 @@
 package com.library.app.commontests.utils;
 
-import static com.library.app.commontests.utils.JsonTestsUtils.*;
+import static com.library.app.commontests.utils.JsonTestUtils.*;
 
 import java.net.URISyntaxException;
 import java.net.URL;

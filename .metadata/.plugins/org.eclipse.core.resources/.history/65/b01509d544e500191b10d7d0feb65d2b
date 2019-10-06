@@ -1,0 +1,47 @@
+package com.library.app.author.resource;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import javax.ws.rs.core.MultivaluedHashMap;
+import javax.ws.rs.core.MultivaluedMap;
+import javax.ws.rs.core.UriInfo;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+public class AuthorFilterExtractorFromUrlUTest {
+	
+	@Mock
+	private UriInfo uriInfo;
+	
+	@Before
+	public void inittestCase() {
+		MockitoAnnotations.initMocks(this);
+	}
+	
+	@Test
+	public void onlyDefaultValues() {
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	private void setUriInfo(String page, String perPage, String name, String sort) {
+		Map<String, String> parameters = new LinkedHashMap<>();
+		parameters.put("page", page);
+		parameters.put("per_page", perPage);
+		parameters.put("name", name);
+		parameters.put("sort", sort);
+	
+		MultivaluedMap<String, String> multiMap = mock(MultivaluedMap.class);
+		
+		for(Entry<String, String> keyValue : parameters.entrySet()) {
+			when(multiMap.getFirst(keyValue.getKey())).thenReturn(keyValue.getValue());
+		}
+		
+		when(uriInfo.getQueryParameters()).thenReturn(multiMap);
+	}
+
+}

@@ -23,8 +23,9 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core">
    <linked-resource name="%1;" path="%0"/>
-   <linked-resource name="%3;%1;" path="%2"/>
-   <linked-resource name="%3;" path="%4"/>
+   <linked-resource name="%3;%1;%4;" path="%2"/>
+   <linked-resource name="%3;" path="%5"/>
+   <linked-resource name="%4;" path="%6"/>
   </core>
   <core validator-id="batch-verification"/>
   <core validator-id="jboss.jsf.core"/>
@@ -32,13 +33,17 @@
  </validation>
  <aliases>
   <alias
+   path="/library-model/src/main/java/com/library/app/user/repository/UserRepository.java" value="%6"/>
+  <alias
    path="/library-model/src/main/java/com/library/app/category/services/impl/CategoryServicesImpl.java" value="%3"/>
   <alias
    path="/library-model/src/main/java/com/library/app/author/services/impl/AuthorServicesImpl.java" value="%1"/>
   <alias
    path="/library-model/src/main/java/com/library/app/common/repository/GenericRepository.java" value="%2"/>
   <alias
-   path="/library-model/src/main/java/com/library/app/category/repository/CategoryRepository.java" value="%4"/>
+   path="/library-model/src/main/java/com/library/app/category/repository/CategoryRepository.java" value="%5"/>
+  <alias
+   path="/library-model/src/main/java/com/library/app/user/services/impl/UserServicesImpl.java" value="%4"/>
   <alias
    path="/library-model/src/main/java/com/library/app/author/repository/AuthorRepository.java" value="%0"/>
  </aliases>

@@ -1,0 +1,7 @@
+package com.library.app.common.utils;
+
+public final class PasswordUtils {
+
+	private PasswordUtils() {}
+	
+}

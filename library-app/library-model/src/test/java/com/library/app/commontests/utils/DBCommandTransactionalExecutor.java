@@ -1,7 +1,7 @@
 package com.library.app.commontests.utils;
 
 import javax.persistence.EntityManager;
-import javax.resource.spi.IllegalStateException;
+
 
 import org.junit.Ignore;
 
@@ -13,7 +13,7 @@ public class DBCommandTransactionalExecutor {
 		this.em = em;
 	}
 
-	public <T> T executeCommand(final DBCommand<T> dbCommand) throws IllegalStateException {
+	public <T> T executeCommand(final DBCommand<T> dbCommand)  {
 		try {
 			em.getTransaction().begin();
 			T toReturn = dbCommand.execute();

@@ -11,7 +11,7 @@ public final class StandardsOperationResults {
 		return OperationResult.error(resourceMessage.getKeyOfResourcExistent(), resourceMessage.getMessageOfResourceExistent(fieldsNames));
 	}
 	
-	public static OperationResult getOperationInvalidField(final ResourceMessage resourceMessage, final FieldNotValidException ex) {
+	public static OperationResult getOperationResultInvalidField(final ResourceMessage resourceMessage, final FieldNotValidException ex) {
 		return OperationResult.error(resourceMessage.getKeyOfInvalidField(ex.getFieldName()), ex.getMessage());
 	}
 	

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserRepositoryUTest" project="library-model" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="com.library.app.user.repository.UserRepositoryUTest" time="2.673">
+    <testcase name="findUserByIdNotFound" classname="com.library.app.user.repository.UserRepositoryUTest" time="1.732"/>
+    <testcase name="findUserByEmailNotFound" classname="com.library.app.user.repository.UserRepositoryUTest" time="0.255"/>
+    <testcase name="alreadyExistsCategoryWithId" classname="com.library.app.user.repository.UserRepositoryUTest" time="0.23"/>
+    <testcase name="findUserByEmail" classname="com.library.app.user.repository.UserRepositoryUTest" time="0.131"/>
+    <testcase name="updateCustomer" classname="com.library.app.user.repository.UserRepositoryUTest" time="0.125"/>
+    <testcase name="alreadyExistsUserWithoutId" classname="com.library.app.user.repository.UserRepositoryUTest" time="0.102"/>
+    <testcase name="addCustomerAndFindIt" classname="com.library.app.user.repository.UserRepositoryUTest" time="0.096"/>
+  </testsuite>
+</testrun>
